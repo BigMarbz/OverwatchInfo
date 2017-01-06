@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_sombralore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.sombralore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Sombra"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/newsombra1"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Omnic Orphan"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Mexico suffered greatly from the Omnic Crisis – also called La Medianoche by residents. The name was an apt one, as the Crisis left a trail of devastation in its wake that wiped out much of the country’s infrastructure as well as its power grid. Mexico’s citizens struggled to rebuild after the long dark, trying to construct ways  to return clean, affordable energy to the country.
+
+As for the girl, she was just one of thousands of children that were left orphaned in the aftermath of La Medianoche. Like the rest of Mexico, she was just looking to survive, and learned how to use her talents with computers and hacking to do exactly that. She wasn’t alone in her search for a new future – the Los Muertos organization was full of people just like her, and they took her in.
+
+Although many viewed Los Muertos as an organization of thugs, they viewed themselves as revolutionaries. They looked at what was being done to rebuild Mexico, and believed that these efforts only benefited the rich and influential – and left behind those who needed help the most. The girl worked closely with Los Muertos and learned a valuable lesson in the process: In the wake of the Omnic Crisis, nothing was more powerful in the world than knowledge.
+
+And she had the skills necessary to obtain every last piece of knowledge she needed."></TextView>
+        <TextView
+            android:text="Conspiracies"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/sombralore1"
+            android:id="@+id/imageView3"
+            android:layout_weight="0.31" />
+
+        <TextView
+            android:text="Knowledge was also a heady drug, one that the girl soon found herself addicted to. She kept hacking – politicians, corporations, governments – and the more she learned, the more she wanted to know. Unfortunately, her investigations led her into a tangled web of global conspiracy…and whoever was behind it all noticed her. To save herself, she had to perform the ultimate vanishing act, deleting all traces of her identity and existence, and going into hiding.
+
+It wasn’t going to stop her, though. If anything, the discovery only fueled her curiosity even further. A lone, ordinary — if skilled — girl couldn’t hack her way into the world’s secrets alone. But upgraded, enhanced, altered…she certainly could. And so the girl went under a rigorous series of cybernetic enhancements designed to give her more power, more control, and keep her from being discovered. The girl she used to be was no more, her name lost for good.
+
+From the darkened shadows, Sombra was born.
+
+And she went right back to hacking, diving in where she left off and initiating a world-wide spree of hacking exploits. She caught attention, yes – but this time, they were admirers. Talon saw what she could do, and the organization was greatly impressed with her abilities. Once again, Sombra found herself taken in by a group of people – one with far more power and influence than Los Muertos."
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12" />
+
+
+    </LinearLayout>
+</ScrollView>

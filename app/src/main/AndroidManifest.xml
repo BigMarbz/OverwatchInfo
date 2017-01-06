@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bigmarbz.overwatch">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcherlogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".heroes" />
+        <activity android:name=".intro" />
+        <activity android:name=".competitive" />
+        <activity android:name=".lore" />
+        <activity android:name=".tiers" />
+        <activity android:name=".aboutapp" />
+        <activity android:name=".maps" />
+        <activity android:name=".analore" />
+        <activity android:name=".bastionlore" />
+        <activity android:name=".genjilore" />
+        <activity android:name=".dvalore" />
+        <activity android:name=".hanzolore" />
+        <activity android:name=".junkratlore" />
+        <activity android:name=".luciolore" />
+        <activity android:name=".roadhoglore" />
+        <activity android:name=".mccreelore" />
+        <activity android:name=".meilore" />
+        <activity android:name=".mercylore" />
+        <activity android:name=".torbjornlore" />
+        <activity android:name=".reinhardtlore" />
+        <activity android:name=".pharahlore" />
+        <activity android:name=".sombralore" />
+        <activity android:name=".reaperlore" />
+        <activity android:name=".soldierlore" />
+        <activity android:name=".symmetralore" />
+        <activity android:name=".winstonlore" />
+        <activity android:name=".tracerlore" />
+        <activity android:name=".zenyattalore" />
+        <activity android:name=".zaryalore" />
+        <activity android:name=".widowmakerlore"></activity>
+    </application>
+
+</manifest>

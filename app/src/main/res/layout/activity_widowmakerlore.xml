@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_widowmakerlore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.widowmakerlore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Amélie Lacroix "
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/widowmakerlore1"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Widowmaker"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Amélie Lacroix was married to Gérard Lacroix, a member of Overwatch that led operations against Talon. In attempt to kill Gérard, Talon kidnapped her and submitted her to neural reconditioning and torture to turn her into a sleeper agent. Overwatch later rescued her, but after two weeks she killed Gérard in his sleep and returned to Talon. The neural reconditioning had finished, turning her emotionless, and she was trained in covert arts. Her heart rate was lowered to give her steadier aim, which turned her skin blue. Despite this, Overwatch still believes that Talon killed her husband and kidnapped her again.
+In Legacy, Widowmaker attacked Overwatch agents while they were attempting to rescue hostages, successfully killing several before she sighted in on Captain Ana Amari. The two tried to attacked one another; Ana was successful in shooting off Widowmaker's visor to reveal Amélie Lacroix's face. The sight made Ana hesitate and Widowmaker had enough time to seemingly fatally shoot Ana Amari through her right eye.
+
+In Alive, Widowmaker was sent to assassinate Tekhartha Mondatta at his speech in King's Row. Though Tracer tried to stop her, the mission was successful. She incapacitated Tracer and damaged her chronal accelerator and escaped.
+
+In the Cinematic Trailer, Widowmaker worked with Reaper in an attempt to steal Doomfist's gauntlet from a museum. They were thwarted by Winston and Tracer; though both escaped intact, the gauntlet was badly damaged, and the two lost the upper hand.
+
+In Infiltration, Widowmaker yet again worked with Reaper along with a certain hacker named Sombra in an attempt to assassinate Katya Volskaya. While the Talon agent was in position and ready to kill, an unsuspecting alarm went off, thus ruining her chance of a perfect shot. Widowmaker, while surprised and annoyed by this, was then told to hold the perimeter by Reaper, as he and Sombra would try to eliminate the CEO themselves. After learning that the mission failed and Katya had gotten away, Widowmaker went back to the ship, but suspected that something wasn't right."></TextView>
+        <TextView
+            android:text="Talon"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/widowmakerlore2"
+            android:id="@+id/imageView3"
+            android:layout_weight="0.31" />
+
+        <TextView
+            android:text="It appears that both Winston and Tracer decided the most important order of business was trying to sort out exactly what Talon was after… and they appear to have figured it out in the Overwatch cinematic trailer. Reaper returned, with Talon agent Widowmaker at his side, and the two of them were after Doomfist’s gauntlet, an incredibly powerful weapon. With the unlikely help of a couple of kids that were visiting the museum, Winston and Tracer managed to put a stop to Reaper and Widowmaker’s plans. The world’s saved, time for some cheers, right?
+
+Not so much. It’s becoming increasingly clear that Talon — working together with Reaper — is trying to systematically take out every former Overwatch agent out there. This would be understandable if Overwatch hadn’t already been disbanded. Winston didn’t make the call to reform Overwatch until after Talon tried to get their hands on the list of former agents out there…so what’s Talon’s agenda? Why are they trying to take out a team that’s already out of commission in the first place?"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_mccreelore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.mccreelore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Jesse McCree"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/mccreelore1"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="The Deadlock Gang"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="One of the most notorious gangs of the American Southwest was the Deadlock Gang. They trafficked in illicit weapons and military hardware, much like the Shimada Clan did. And they had just as much success doing so, although their reach may not have been quite as widespread. One of the members of the Deadlock Gang was Jesse McCree. He wasn’t the leader or the son of the leader, but just happened to be a highly effective member of the gang.
+
+Overwatch tracked down the Deadlock Gang and through a sting operation, managed to capture McCree and his cronies. But instead of turning McCree over to the authorities, they offered him a choice. He could spend the rest of his days rotting away in a maximum security prison…or he could join Blackwatch and work for Overwatch.
+
+Although initially cynical about this “second chance,” over time McCree realized that through Overwatch — through Blackwatch — he could possibly start to make amends for his past sins. And Blackwatch, a special covert ops division of Overwatch, let him do exactly that without any of the red tape or bureaucracy that might have hindered any efforts in Overwatch itself."></TextView>
+        <TextView
+            android:text="McCree leaves Overwatch"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/mccreelore2"
+            android:id="@+id/imageView3"
+            android:layout_weight="0.31" />
+
+        <TextView
+            android:text="That was all well and good, except that Blackwatch’s covert operations weren’t going to remain covert forever. As Overwatch’s popularity waned, there were those in Blackwatch who sought to bring down the organization and instead turn it to their own ends. McCree watched the infighting — including tension between Gabriel Reyes and Jack Morrison — and ultimately decided he wanted no part in it.
+
+Nobody managed to stop him when he left. Maybe they were too busy dealing with the fighting to notice he’d gone. And nobody knew where he’d gone — for all intents and purposes, McCree simply disappeared. Years later, he resurfaced as an experienced, proficient gunslinger for hire, his talent and skill making him a popular choice for parties great and small.
+
+But McCree didn’t have any interest in illicit activities. He only took assignments for causes he believed in, for justice he felt needed to be served. McCree may have left Overwatch, but the lessons he took from the organization and his desire to actually make amends for the wrongdoing he’d done in his lifetime seemed to have carried forward."
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12" />
+
+
+
+        <TextView
+            android:text="McCree as a Vigilante"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView103"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/mccreelore3"
+            android:id="@+id/imageView4"
+            android:layout_weight="0.31" />
+
+        <TextView
+            android:text="McCree’s been described as a vigilante — a civilian taking the law into their own hands without any legal authority. And there’s been plenty of discussion on whether or not this is a good or bad thing by the press. It’s been noted that crime is on the rise all over the world, now that Overwatch is gone — and McCree is hardly the only vigilante out there trying to do something about it.
+
+In fact, according to the Recall short, any activity by former Overwatch members is now considered illegal, which means that every single hero that was once a member of the organization could be considered a vigilante if the decided to step in and try to help out. It means that Tracer’s actions in the Alive short were those of a vigilante. Just because Winston decided to push that recall button doesn’t mean everything Overwatch does now is suddenly legal.
+
+Is it for the right causes? Absolutely, Winston has the best interests of the world at heart. He wants to see a return to that peace and prosperity that followed the end of the Omnic Crisis. He wants to put an end to that second Omnic Crisis before it spirals out of control. But it doesn’t mean that what Winston is doing is legal in the eyes of the rest of the world."
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView123" />
+
+
+    </LinearLayout>
+</ScrollView>

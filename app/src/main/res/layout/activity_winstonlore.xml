@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_winstonlore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.winstonlore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Winston"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/winstonlore"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Background"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Winston’s story actually predates Overwatch by an unknown period of time — and it begins in space. At some point prior to Overwatch’s formation, humanity gained a renewed interest in space exploration, and established a base on the moon. This base, the Horizon Lunar Colony, was populated mainly by scientists, but also by a very special group of inhabitants: genetically enhanced gorillas. The gorillas were intended to test the effects of prolonged habitation in space, presumably so that humanity could eventually take up formal residence amongst the stars.
+
+However, there was one gorilla who far exceeded any expectations. He displayed such rapid brain development that one of the scientists, Dr. Harold Winston, took the young gorilla under his wing and began teaching him — specializing in science of course — and telling him tales of human ingenuity. Pretty soon the young gorilla was helping out with experiments the scientists were conducting, and when he wasn’t learning, he was staring out the window of his habitat at Earth, dreaming of what kind of possibilities awaited him there.
+
+Unfortunately, life on the moonbase was abruptly altered forever when the other gorillas suddenly broke out in an uprising, killing the mission scientists and claiming the Lunar Colony for themselves. The gorilla hid himself away, and took the name Winston — after the scientist and father figure who’d raised him and taught him everything he knew. Winston wasn’t completely out of luck, however; he was able to build a makeshift rocket and escape the colony to Earth. Once there, he found a home with Overwatch — an organization that pretty much represented everything he admired about humanity."></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/winstonlore2"
+            android:id="@+id/imageView3" />
+
+        <TextView
+            android:text="Overwatch's Disbandment"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView122"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Both Winston and Tracer share a boundless optimism and enthusiasm, as well as a penchant for righting the wrongs of the world. When Overwatch was disbanded, Winston went into seclusion, cutting himself off from the rest of the world and quietly longing for a return of the days of heroism and good deeds. Tracer, on the other hand, kept right on doing the best she could with fighting the good fight, whether Overwatch existed or not.
+
+And it was probably Tracer that convinced Winston to come out of seclusion — that there was still hope in the world, and the world still needed Overwatch, and if nobody else was going to put it back together, they might as well try to do it themselves. In the Overwatch cinematic trailer, Winston and Tracer fight side by side to prevent Doomfist’s gauntlet from being stolen by Reaper and Widowmaker. Winston helped defeat Doomfist in the first place, so he knew what would happen if the gauntlet fell into the wrong hands.
+
+And while Winston may have been focused mostly on the fight at hand, Tracer took a moment to acknowledge two young boys who had helped her out during the fight, letting them know that the world could always use more heroes. Because it could — and Winston and Tracer are both determined to see the golden days of Overwatch return. Not because they want to relive their glory days, but because they possess endless hope, a vision of a bright future for the world, and they’ll do anything to make the world of tomorrow a better one."></TextView>
+
+    </LinearLayout>
+</ScrollView>

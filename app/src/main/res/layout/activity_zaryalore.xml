@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_zaryalore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.zaryalore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Aleksandra Zaryanova"
+            android:layout_width="wrap_content"
+            android:textSize="35dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/zaryalore1"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Russia and the Omnic Crisis"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Russia was among those nations that tried using their own technology and innovations to combat the omnic threat. Although most countries were forced to admit that they simply didn’t have enough strength to defeat the omnics on their own, Russia was the exception. Volskaya Industries began production of Svyatogor — giant, human-piloted mechanized walkers — in an effort to fight fire with fire. It made perfect sense — evil robots threatening to take down the country? Produce bigger, deadlier robots, with humans at the helm.
+
+And it worked. Flawlessly. While the rest of the world was busy forming Overwatch, the Russian Defense Forces were able to defeat the omnics themselves, fighting their way through the omnic armies and shutting down the region’s omnium. Whatever this “force behind the uprising” was, it clearly wasn’t located in Russia, because once the omnium was shut down, Russia was safe.
+
+The years passed, and Russia remained less involved with international affairs — after all, they’d proven they had absolutely no need for Overwatch. Standing proud, tall, and entirely on its own, Russia saw the next thirty years free of any kind of threats.
+
+And then one day, suddenly, Russia’s omnium reactivated."></TextView>
+        <TextView
+            android:text="Post-war devastation"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/zaryalore2"
+            android:id="@+id/imageView3"
+            android:layout_weight="0.31" />
+
+        <TextView
+            android:text="Aleksandra Zaryanova was born in a remote Siberian village during the Omnic Crisis, one that was pretty much smack dab in the middle of all the fighting. While Russia was in fact victorious without Overwatch’s help, the war wasn’t without its costs. Zarya grew up in a land of post-war devastation, spending her childhood among the rubble and wreckage. As she grew older, she swore that one day she would gain the strength to help her people recover.
+
+And she meant it. Training in bodybuilding and weightlifting, Zarya soon caught the attention of the entire world, moving up the athletic ranks and representing Russia with pride. It was pretty much expected that she’d absolutely shatter longstanding world records in the world championships — and it was also blatantly clear that she’d achieved the strength she was looking for.
+
+But on the eve of the championships, word came from her village that the omnium had been reactivated. The village was once again under fire, thrust into a war it wasn’t prepared for. Zarya dropped everything, withdrew from the competition and returned home…because gaining strength was all well and good, but it was defending her home that mattered the most."
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12" />
+
+
+    </LinearLayout>
+</ScrollView>

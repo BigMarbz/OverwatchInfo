@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_analore"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="bigmarbz.overwatch.analore"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="Ana Amari"
+        android:layout_width="wrap_content"
+        android:textSize="40dp"
+        android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true" />
+
+
+    =
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        app:srcCompat="@drawable/analore"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:text="Ana and Overwatch"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"  />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="It was just the beginning for Ana. After spending her early years fighting in Egypt, Overwatch was just a natural progression for her career. She wasn’t a cold-blooded killer: instead, she was fiercely protective of her people, her friends, and her family, which kept her out on the battlefields. And the Overwatch team quickly became another family to her.
+
+During her years with Overwatch, Ana became Morrison’s second-in-command, helping him lead the organization into its golden, post-Crisis years. During that time, Ana had a daughter, Fareeha, in whom she instilled with a sense of duty and honor just like her own. Fareeha grew up surrounded by heroes, and hoped one day to become one — but Ana didn’t want that for her daughter.
+
+Despite her prowess on the battlefield, despite her incredible sniping abilities, Ana was a killer, and she knew it. Every mark on her rifle was a life she had taken in the name of protecting her home and family — and each of those lives likely had others who cared for them in turn. It was a heavy burden and one she bore the weight of every day. It was a weight she didn’t want her daughter to carry."/>
+
+    <TextView
+        android:text="Ana VS Widowmaker"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView10"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        app:srcCompat="@drawable/anawidow"
+        android:id="@+id/imageView3"
+        android:layout_weight="0.31" />
+
+    <TextView
+        android:text="Ana refused to step away from combat missions, and remained on active duty well into her fifties, keeping her friends and family from harm’s way. But one fateful day changed it all when Ana looked through her scope and for the first time, hesitated.
+
+Overwatch was on a mission to release scientists targeted by Talon. Talon was no stranger to Overwatch, which spent years trying to take the terrorist organization down. Agent Gérard Lacroix spearheaded the operations, but he was killed and his wife Amélie was kidnapped — or so they thought. During the hostage mission, the Overwatch agents came under fire from Talon, and Ana found herself in a game of cat-and-mouse with the sniper.
+
+Ana got a shot off, and then realized who she was shooting at: Amélie Lacroix. She realized what must have happened: Gérard wasn’t assassinated by a random Talon agent, he was murdered by his own wife. Ana hesitated and Amélie — now Widowmaker — made her pay for it. According to everyone at Overwatch, Ana lost her life that day."
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12" />
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_torbjornlore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.torbjornlore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Torbjörn Lindholm"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/torbjornlore1"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Advanced Weaponry"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="In Sweden, one man was absolutely infamous for innovative weapons design. Torbjörn Lindholm had earned himself a reputation for excellent work, one that resulted in his designing weapons systems used by countries all over the world. But his employers wanted to reign him in and control his weapons using networked computer intelligence — something Torbjörn wasn’t at all comfortable with. His belief was that technology needed to serve a better vision for humanity.
+
+Beyond that, he never really trusted the omnics. Sentient robotic intelligence didn’t sit right with the engineer, and although his peers laughed off his concerns as paranoia, that paranoia was proven to be well-placed. The omnics rose up against their human creators and began the Omnic Crisis — and when Torbjörn was asked to join Overwatch and help defeat them, he didn’t hesitate to say yes.
+
+Torbjörn’s inventions turned out to be a critical part of Overwatch’s success in ending the Omnic Crisis, and when the organization shifted its priorities into an international peacekeeping force, Torbjörn was happy to stay on board. His signature weapons systems and innovative technology were beyond compare — but when Overwatch faltered and eventually disbanded, many of those same weapons were stolen or stashed away around the world. That didn’t sit right with Torbjörn either, and he set out to prevent them from falling into the wrong hands."></TextView>
+
+    </LinearLayout>
+</ScrollView>

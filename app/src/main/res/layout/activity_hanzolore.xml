@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_hanzolore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.hanzolore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Hanzo Shimada"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/hanzolore1"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Shimada Brothers"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Hanzo Shimada was a prodigy — not only did he possess a natural affinity for leadership, strategy and tactics, he also had an uncanny knack for martial arts, swords, and bow. Hanzo was destined to lead the Shimada Clan, and groomed for the position pretty much from the moment he was born. His brother Genji Shimada, on the other hand, was a completely different story.
+
+Like his brother, Genji excelled in his training, but unlike his brother, he had little use for the family legacy. A playboy of sorts, Genji enjoyed his life of privilege, but didn’t really care about the family business at all. After all, why should he? It wasn’t as if he were going to be leading the Shimada Clan, that was Hanzo’s job.
+
+And when Hanzo and Genji’s father died, Hanzo willingly stepped up to lead — but with that leadership came responsibility. The clan elders, wary of Genji’s wayward attitude, asked Hanzo to straighten out his brother and force him to help lead the Shimada Clan. Hanzo agreed, but Genji flat-out refused to take any kind of active role.
+
+Just like that, the eldest Shimada son found his hands tied. Pressured by the elders on one side, on the other, his only brother — and there was only one choice Hanzo could make. The two brothers fought in a violent confrontation, and when the dust had settled, Genji was dead."></TextView>
+        <TextView
+            android:text="Marked by the Dragon"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/hanzolore2"
+            android:id="@+id/imageView3"
+            android:layout_weight="0.31" />
+
+        <TextView
+            android:text="Or at least, Hanzo thought Genji was dead…and although this may have pleased the elders of the Shimada Clan, it left Hanzo heartbroken. Wracked with grief over what he’d done, Hanzo abandoned the Clan and left for good, wandering the world and searching for a way to restore his honor, and atone for what he’d done. The Shimada Clan was left without a leader…but continued on with its illegal activities regardless.
+
+But Genji wasn’t dead. On the brink of death, he was rescued by Dr. Angela Ziegler, a.k.a. Mercy, and brought back to Overwatch, who had been watching the Shimada Clan’s activities for quite some time. As the son of the former Shimada Clan leader, it was thought that Genji could be a potentially valuable asset, if he could be healed, and if he could be persuaded to help.
+
+Overwatch offered to rebuild his body in exchange for that help, and Genji agreed, not at all opposed to the idea of dismantling his family’s criminal empire — after all, they’d tried to have him killed. With his agreement, the scientists and doctors of Overwatch rebuilt Genji’s body, enhancing his speed and agility in a manner similar to what Morrison and Reyes had gone through in the government’s soldier enhancement program. Only this time, it wasn’t genetics, it was all cybernetic."
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12" />
+
+
+    </LinearLayout>
+</ScrollView>

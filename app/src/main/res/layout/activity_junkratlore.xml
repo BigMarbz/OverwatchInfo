@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_junkratlore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.junkratlore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Jamison Fawkes"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/junkratlore1"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Background"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="The attack on the Australian omnium's fusion core forever altered the landscape of the Outback. After the detonation, the area was transformed into a harsh, irradiated wasteland, littered with debris and the twisted fragments of the ruined facility, and unlivable to most.
+
+But there were some who survived. Calling themselves the Junkers, they scavenged the husk of the omnium and formed a lawless, cutthroat society in its shadow. Junkrat was one of them, eking out a living reclaiming metal and components from the ruins. Like many others, he was affected by the lingering radiation. This touch of madness made him ideal for handling dangerous explosives, a love which he turned into an obsession.
+
+He came to notoriety when he discovered an extremely valuable secret in the bones of the omnium. Though few knew the nature of what he found, he was nonetheless pursued by bounty hunters, gangs, and opportunists wherever he went, until he made a deal with the Junker enforcer Roadhog, who grudgingly agreed to be his personal bodyguard in exchange for a fifty-fifty share of the spoils."/>
+        <TextView
+            android:text="On the Road"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/junkratlore2"
+            android:id="@+id/imageView3"
+            android:layout_weight="0.31" />
+
+        <TextView
+            android:text="With Roadhog in tow, Junkrat left the Outback, and embarked upon an international crime spree leaving nothing but havoc and bedlam in their wake. They were responsible for a string of robberies, arson, murder, and other crimes stretching from Sydney to King's Row. They had a creed of 'no job too big, no score too small.' It is known that they performed the heist of the Banco de Doraado by digging a tunnel. In the United Kingdom, they stole the crown jewels. Their spree of mayhem and chaos caused untold millions in property damage around the world.
+
+    British, French, and Latin American authorities offered rewards for information on the fugitives, and theorized that they were intent on crossing the Atlantic to North America. Their activities were reported on by A Moment in Crime, by which point the bounty on their heads had reached $25 million.At some point, Junkrat and Roadhog were called in for a job on behest of a suit from Hyde Global in Sydney. He claimed that a factory of his in downtown Sydney had been taken over by omnic terrorists, and its workers taken hostage. Wanting to keep the police out of it, he asked the pair to deal with the situation, as he knew there was no-one better for getting jobs done quietly. Junkrat was onboard—he was happy to take out omnics, and the down payment looked enticing. Ergo, the pair set off to the factory, Junkrat even open to the idea of going legit. This job could be a new start for them. What wasn't a new start was his approach to problems, namely to blow open a hole in the factory roof and jump straight in, any thought of the hostages barely registering. Only there were none, only a horde of cop bots. The two blasted their way through the opposition, exited the factory, and then set the whole thing crashing down in yet another explosion. Marveling at the destruction, Junkrat was reminded by Roadhog that there were meant to be hostages. Only, there were none, only the robots. And as he inspected them, Junkrat realized that they weren't omnics, but rather Hyde Global automatons.
+
+At this point the police arrived. Despite Junkrat's assertion that they were professionals, that didn't prevent a shootout from starting (not that Roadhog being called fat by one of the officers helped his disposition). In the hail of gunfire, Roadhog helped Junkrat realize that the suit had set them up. It was a realization that was accurate, for in reality, the suit had intended for the pair to destroy the factory for the insurance payout. But the next day, Junkrat and Roadhog paid him a visit, stringing him up on a crane, and leaving him to die in an explosion that consumed the entire HG Sydney office block. As they made their escape, Junkrat was reaffirmed in his dislike of suits, and could only ask whose idea it had been to go legit in the first place. "
+
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12" />
+
+
+    </LinearLayout>
+</ScrollView>

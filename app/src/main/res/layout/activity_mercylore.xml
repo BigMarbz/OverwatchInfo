@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_mercylore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.mercylore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Angela Zielger"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/mercylore1"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Medical Genius"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Dr. Angela “Mercy” Ziegler was a brilliant scientist who worked her way to the head of surgery at a prominent Swiss hospital. While there, she managed to pioneer a breakthrough in the field of applied nanobiology — radically improving the treatment of life-threatening illnesses and injuries. It was this research that picked up Overwatch’s attention — after all, if you’re headed into constant conflict, you’re going to need a medic. And Ziegler was the best. She was promptly named head of medical research for the team.
+
+As head of research, she worked to find a way to optimize healing in frontline crises, and developed the Valkyrie swift-response suit, even piloting it herself. But even though her contributions were in fact immensely valuable, Ziegler herself often felt at odds with the organization. Part of it was the infighting between Morrision and Reyes … and part of it was simply due to her background. Ziegler lost both of her parents to war, and the militaristic approach to peace that Overwatch adopted after the Omnic Crisis never really felt right to her, even though it allowed her to save more lives than ever before.
+
+After Overwatch disbanded, Ziegler remained dedicated to helping those who were affected by war — because even though the Omnic Crisis had long since ended, there were still people in peril that desperately needed help. Much like Reinhardt, Mercy saw herself as a protector of the innocent, a healer that could be depended on no matter how dangerous the situation — and her Valkyrie suit made that possible."></TextView>
+        <TextView
+            android:text="Mercy's Mysteries"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/mercylore2"
+            android:id="@+id/imageView3"
+            android:layout_weight="0.31" />
+
+        <TextView
+            android:text="That wasn’t the only thing Mercy was responsible for, however. She was also the doctor who saved and essentially rebuilt Genji Shimada — Overwatch offered to rebuild his body in exchange for his help in taking down the Shimada Clan. But there are implications that Mercy may have been up to much more than that. There seems to be at least some implication that Mercy may have done something which caused Gabriel Reyes to become Reaper after his apparent demise at Overwatch’s Swiss headquarters. As Reaper, the very fabric of Reyes’s genetic code appears to have been altered in such a way that his cells are forced to simultaneously decay and regenerate at a hyper-accelerated rate. Was this a byproduct of the still-classified soldier enhancement program that Reyes once participated in? Or was this perhaps some kind of horrifying side effect of Mercy’s developments with nanobiology? It’s not clear, but there’s definitely something going on.
+
+In addition to that, there seems to be something going on with Mercy herself. Dialogue between Mercy and Mei includes offhand commentary about aging — Mercy notes that Mei hasn’t aged at all, and Mei points out cryostasis. Mei points out that Mercy doesn’t look like she’s aged — and Mercy merely replies that Mei doesn’t, either. Despite being 37, Mercy certainly doesn’t look the part — which makes one wonder if Dr. Ziegler ever tested medical technology on herself. Did she simply hit the genetic lottery on the aging front, or did she rig the odds in her favor?
+
+Regardless, Mercy isn’t the sinister sort. She’s got the world’s best interests at heart, and she does her best to try and help those that need it. That seems to be the case for the majority of Overwatch’s former agents, regardless of when they joined. Overwatch might be gone and the Petras Act may have deemed any Overwatch activity illegal, but Torbjörn, Reinhardt, and Mercy have all continued its legacy on their own, in hopes of returning to the peaceful world that Overwatch tried to foster."
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12" />
+
+
+    </LinearLayout>
+</ScrollView>

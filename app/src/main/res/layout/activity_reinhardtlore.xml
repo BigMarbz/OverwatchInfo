@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_reinhardtlore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.reinhardtlore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Reinhardt Wilhelm"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/reinhardtlore1"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Super Soldier"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="In Germany, one soldier was so highly decorated and so well known that it was a given he’d eventually join the Overwatch team. Reinhardt Wilhelm was loud, outspoken, boisterous and completely dedicated to Overwatch’s success. Not one to mince words, Reinhardt was the most vocal supporter Overwatch could ever ask for — and in turn, its harshest critic. He made it a point to constantly remind his colleagues that Overwatch was meant to be a force for good.
+
+Even after the Omnic Crisis, Reinhardt continued to serve well into his fifties, at which point he was faced with mandatory retirement from all combat operations. It took a toll on Reinhardt — he couldn’t help but fear that now that those glory days of honorable combat were over, he no longer had a purpose. And as Overwatch came under fire with accusations of internal corruption, there was nothing he could do — he could only watch that bright cause, that shining organization that had become so vital a part of his life fall apart in disgrace.
+
+But although Reinhardt’s service had ended, he wasn’t going to let the world simply fall into chaos. Overwatch may have been gone, but as far as Reinhardt was concerned, it was up to him to continue carrying its ideals and its legacy forward. With this in mind, he set out to travel the world with his companion, a young woman named Brigitte who helped maintain his armor. The world still needed heroes — and even if Overwatch wasn’t part of the equation, Reinhardt was determined to keep standing as a defender of the innocent."></TextView>
+
+
+    </LinearLayout>
+</ScrollView>

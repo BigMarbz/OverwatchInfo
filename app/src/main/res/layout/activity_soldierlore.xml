@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_soldierlore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.soldierlore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="John Morrison"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/soldierlore1"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Morrison"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="John “Jack” Morrison grew up in rural Indiana, a farmer’s son with a heart of gold and a spark of determination that shone brighter than the fields in Indiana could ever hope to contain. When he was old enough, Morrison joined the military — with every intent to return home after a few years in service. But Morrison caught the eye of his superiors due to his strong work ethic and courage. And before he knew it, he earned a spot in a controversial soldier enhancement program, whose details are still classified to this day. What we do know is that the program involved genetic enhancement, giving soldiers superhuman speed, strength, and agility.
+
+When Overwatch was originally formed in response to the Omnic Crisis, Morrison and one of his friends from the program, Gabriel Reyes, were asked to join the team. Reyes was appointed leader, but it was Morrison who really kept the team together and had the greatest impact. Morrison simply brought out out the best in those around him, inspiring them despite their differences and shaping the team as a whole into a cohesive fighting force. Morrison’s efforts didn’t go unnoticed, and when the Omnic Crisis was over, he was given leadership of the team, becoming the first official commander of Overwatch.
+
+But Reyes wasn’t happy about being overlooked for the promotion, and tensions began to rise between the once-close friends. This all culminated in a fight at Overwatch’s Swiss headquarters, and an explosion that not only destroyed the facility, but killed both Morrison and Reyes. In the wake of the destruction, Overwatch was disbanded. Morrison was supposedly buried at Arlington National Cemetery, but in truth, his body was never recovered from the explosion. The farmboy never made it home to Indiana, and Overwatch crumpled without him serving as its guiding hand."></TextView>
+        <TextView
+            android:text="Soldier:76"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/soldierlore2"
+            android:id="@+id/imageView3"
+            android:layout_weight="0.31" />
+
+        <TextView
+            android:text="Five years after Overwatch was disbanded, reports began to surface of an unidentified male striking out at various financial institutions and former Overwatch facilities. This shadowy figure, called Soldier: 76, seemed to be intent on retrieving Overwatch technology. His efforts were noted by authorities, and an international manhunt soon developed, focused on capturing and neutralizing Soldier: 76.
+
+Easier said than done. Although Helix Security Internation tried to engage and apprehend him at the site of one of the thefts, they were unable to catch him. No one was killed, but rumors circulated that Soldier: 76 possessed almost superhuman strength and speed, and a suggested aptitude for military training. After footage of the attacks was analyzed by a forensic expert, it was noted that Soldier: 76 appeared to be the same height and build as Morrison was in his last public appearance.
+
+The truth was plain to see, for those that knew Morrison — he wasn’t dead at all. But Soldier: 76 bore little resemblance to Morrison, the golden boy from Indiana who wanted to save the world. Reckless and dangerous, Soldier: 76 seemed instead to be a man with an agenda — one who was acting in his own interests for reasons unknown. Rumors suggested that he may even be trying to hunt down and uncover the truth behind Overwatch’s collapse, to try and clear the organization’s name in the history books.  Yet it seemed to those that took a closer look at Soldier: 76 that for all intents and purposes, Morrison was in fact dead. Soldier: 76 was just a shadow he left behind, seeking justice for Overwatch’s downfall."
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12" />
+
+
+    </LinearLayout>
+</ScrollView>

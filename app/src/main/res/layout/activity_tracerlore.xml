@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_tracerlore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.tracerlore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Lena Oxton"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/tracerlore1"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Tracer"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Lena “Tracer” Oxton was the youngest person ever inducted into Overwatch’s experimental flight program, but with good reason: she was one of the best and most fearless pilots in the world. Overwatch needed someone fearless to test the prototype for a brand-new kind of fighter, one that specialized in teleportation: the Slipstream. True to her reputation, Tracer didn’t hesitate to suit up and take the experimental technology for a spin — but unfortunately, something went wrong with the aircraft’s teleportation matrix on its first flight. The fighter disappeared, and Tracer went right along with it.
+
+Yet she wasn’t dead, as some had feared. Months later, Tracer reappeared, but the experience had altered her at a molecular level — her molecules had been desychronized from the flow of time itself. They called it “chronal disassociation,” but what it really meant was that Tracer was essentially a living ghost, fading in and out for hours or days at a time. And even when she reappeared, she was unable to keep physical form or interact with the world around her. It seemed as though she was destined to an existence of half-reality.
+
+But although Overwatch’s best doctors and scientists were stumped, it was a puzzle that Winston was able to solve. He created a device called a chronal accelerator — the device Tracer wears on her chest — that was capable of keeping Tracer anchored in the present. That wasn’t all — it also gave Tracer the ability to control her own time, allowing her to speed it up and slow in down at will. This ended up making Tracer an incredibly effective agent in Overwatch, simply because it was nigh-impossible to pinpoint where she’d be at any given time — that was entirely up to her."></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/winstonlore2"
+            android:id="@+id/imageView3" />
+
+        <TextView
+            android:text="Overwatch's Disbandment"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView122"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Both Winston and Tracer share a boundless optimism and enthusiasm, as well as a penchant for righting the wrongs of the world. When Overwatch was disbanded, Winston went into seclusion, cutting himself off from the rest of the world and quietly longing for a return of the days of heroism and good deeds. Tracer, on the other hand, kept right on doing the best she could with fighting the good fight, whether Overwatch existed or not.
+
+And it was probably Tracer that convinced Winston to come out of seclusion — that there was still hope in the world, and the world still needed Overwatch, and if nobody else was going to put it back together, they might as well try to do it themselves. In the Overwatch cinematic trailer, Winston and Tracer fight side by side to prevent Doomfist’s gauntlet from being stolen by Reaper and Widowmaker. Winston helped defeat Doomfist in the first place, so he knew what would happen if the gauntlet fell into the wrong hands.
+
+And while Winston may have been focused mostly on the fight at hand, Tracer took a moment to acknowledge two young boys who had helped her out during the fight, letting them know that the world could always use more heroes. Because it could — and Winston and Tracer are both determined to see the golden days of Overwatch return. Not because they want to relive their glory days, but because they possess endless hope, a vision of a bright future for the world, and they’ll do anything to make the world of tomorrow a better one."></TextView>
+
+    </LinearLayout>
+</ScrollView>

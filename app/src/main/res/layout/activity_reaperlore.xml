@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_reaperlore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.reaperlore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Gabriel Reyes"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/newreaper"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Reaper"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Morrison wasn’t without his faults, but then neither was his former friend. Gabriel Reyes was born in Los Angeles, and just like Morrison, he joined the military — although Reyes seemed to be in for the long haul, eventually achieving a senior officer position, and then veteran status. He became a part of the soldier enhancement program right along with Morrison, and the two were close — they decided to join Overwatch together. Reyes was given leadership of the fledgling group, likely due to his seniority more than anything else.
+
+But Morrison quickly outshone him, and when Reyes was passed over in favor of Morrison for a promotion, it created a rift between the two of them. Reyes became part of Overwatch’s covert ops division, Blackwatch. Little is known about the program, which was probably a deliberate move — the unit was unhindered by bureaucracy and acted largely on its own. And Reyes quietly began an internal rebellion that soon tore Overwatch apart, literally.
+
+Supposedly, Reyes died alongside Morrison at Overwatch’s Swiss headquarters. But when Soldier: 76 resurfaced, so did others…including a ruthless, deadly mercenary called Reaper. A remorseless killer, Reaper left behind a trail of pale, empty husks drained of life, their cells showing signs of intense decay. And rumors suggested that Reaper was some kind of genetic experiment gone wrong, the failed alteration causing his body to both decay and regenerate at an accelerated rate.
+
+More importantly, closer inspection of that trail of bodies left behind suggested that Reaper was systematically hunting down and targeting former Overwatch agents. And he was just as interested in Overwatch technology as Soldier: 76, going so far as to break into a museum alongside Widowmaker in a bid to steal Doomfist’s gauntlet, which was thankfully foiled by Winston and Tracer."></TextView>
+        <TextView
+            android:text="Talon"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/reaperlore2"
+            android:id="@+id/imageView3"
+            android:layout_weight="0.31" />
+
+        <TextView
+            android:text="In the present, Reaper appears to be possibly cooperating with Talon, an active member, or possibly even a leading figure. Although the exact extent of his affiliation is unclear, he is clearly involved with their operations, given his past as the leader of Blackwatch, and has recently been seen working closely with Talon strike teams.
+
+Several recent Talon operations have struck devastating blows to the world. There was an attempt to raid a hypertrain in the United States; an attack on Watchpoint: Gibraltar in order to steal information about Overwatch's former agents; and the successful assassination of Tekhartha Mondatta at King's Row.
+
+Recently, Talon's operations in Egypt was sabotaged by someone they nicknamed 'Ghost'. The operation might have a connection to the Temple of Anubis, under guard by Helix Security International; and Sombra was involved in the operation. Reaper, Soldier: 76 and Ghost had a clash at Hakim's base, and resulted in the shutdown of the base."
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12" />
+
+
+    </LinearLayout>
+</ScrollView>
