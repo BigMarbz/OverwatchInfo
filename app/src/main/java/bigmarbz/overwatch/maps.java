@@ -47,7 +47,7 @@ public class maps extends AppCompatActivity {
         SharedPreferences sharedPreferences = getSharedPreferences("ViewMode", MODE_PRIVATE);
         currentViewMode = sharedPreferences.getInt("currentViewMode", VIEW_MODE_LISTVIEW);//Default is view listview
         //Register item lick
-
+        listView.setOnItemClickListener(onItemClick);
         switchView();
 
     }
@@ -84,7 +84,7 @@ public class maps extends AppCompatActivity {
         productList.add(new Product(R.drawable.america, "Route:66", "Payload"));
         productList.add(new Product(R.drawable.egypt, "Temple of Anubis", "Capture Point/Capture Point"));
         productList.add(new Product(R.drawable.russia, "Volskaya Industries", "Capture Point/Capture Point"));
-        productList.add(new Product(R.drawable.overwatchsymbol, "WatchPoint: Gibraltar", "Payload"));
+        productList.add(new Product(R.drawable.overwatchsymbol, "Gibraltar", "Payload"));
 
         return productList;
     }
@@ -95,8 +95,62 @@ public class maps extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), productList.get(position).getTitle(), Toast.LENGTH_SHORT).show();
             switch(productList.get(position).getTitle()){
                 case "Dorado":
-
+                    Intent dorado = new Intent(maps.this,dorado.class);
+                    maps.this.startActivity(dorado);
                     break;
+                case "Eichenwalde":
+                    Intent eich = new Intent(maps.this,eichenwalde.class);
+                    maps.this.startActivity(eich);
+                    break;
+                case "Hanamura":
+                    Intent hana = new Intent(maps.this,hanamura.class);
+                    maps.this.startActivity(hana);
+                    break;
+                case "Hollywood":
+                    Intent holl = new Intent(maps.this,hollywood.class);
+                    maps.this.startActivity(holl);
+                    break;
+                case "Ilios":
+                    Intent il = new Intent(maps.this,ilios.class);
+                    maps.this.startActivity(il);
+                    break;
+                case "Lijiang Tower":
+                    Intent lij = new Intent(maps.this,lijiangtower.class);
+                    maps.this.startActivity(lij);
+                    break;
+                case "King's Row":
+                    Intent king = new Intent(maps.this,kingsrow.class);
+                    maps.this.startActivity(king);
+                    break;
+                case "Nepal":
+                    Intent nepal = new Intent(maps.this,nepal.class);
+                    maps.this.startActivity(nepal);
+                    break;
+                case "Numbani":
+                    Intent numb = new Intent(maps.this,numbani.class);
+                    maps.this.startActivity(numb);
+                    break;
+                case "Oasis":
+                    Intent oasis = new Intent(maps.this,oasis.class);
+                    maps.this.startActivity(oasis);
+                    break;
+                case "Route:66":
+                    Intent route66 = new Intent(maps.this,route66.class);
+                    maps.this.startActivity(route66);
+                    break;
+                case "Temple of Anubis":
+                    Intent temple = new Intent(maps.this,templeofanubis.class);
+                    maps.this.startActivity(temple);
+                    break;
+                case "Volskaya Industries":
+                    Intent volskaya = new Intent(maps.this,volskayaindustries.class);
+                    maps.this.startActivity(volskaya );
+                    break;
+                case "Gibraltar":
+                    Intent watchpoint = new Intent(maps.this,watchpointgibraltar.class);
+                    maps.this.startActivity(watchpoint);
+                    break;
+
             }
         }
     };

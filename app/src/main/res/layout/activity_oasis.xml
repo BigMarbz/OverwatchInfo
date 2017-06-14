@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_oasis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.Oasis"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Oasis"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/oasis"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Part 1: City Center"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="The first part of the map is called City Center, and it introduces new design elements to the game. One side of the map has a unique kill zone: rather than simply being a bottomless pit, it has a road filled with fast moving cars. One trick that's currently possible with this is to let the car clip the side of your shields as Zarya. This can give you a huge amount of charge as you enter the opening battle, but I wouldn't be surprised to see this patched out. If you’re hit directly by a car, it's instant death - but with some good timing or speed boosts, it’s possible to use this as a flanking route.
+
+As a bonus, this flanking route takes you directly to a large health pack - meaning if you’re playing someone like Sombra, making a rush for this is probably a wise move. Heroes like Pharah or D.Va could also make great use of this by rushing the health pack and using knockbacks on anyone from the other team attempting to do the same.
+
+The second large health pack is located on the other side of the map, next to another new addition: the jump pad. The pad will propel you upwards quickly, and if you’re moving forward you'll maintain your momentum. In most cases, you'll land on the high ground above the control point, a powerful position for many mid-ranged heroes like Soldier: 76 or McCree who can effectively fire on about two thirds of the control point from here. This is probably the most important part of the map to control.
+
+If you can control the jump pad and the high ground, taking and keeping the control point will be a lot easier.
+
+Finally, this brings me nicely onto the control point itself. A fairly average size and shape, what makes this control point interesting is the monument in the middle. Unlike the pillars in Lijiang, this large obstruction provides cover from inside. This design drastically reduces the effectiveness of AoE-based ultimates that are normally powerful on this type of map. For example, Lucio can’t just drop the beat and guarantee everyone on the control point gets the buff. The monument also has a ledge around the top. It’s too high to contest the point from here, but it will be of use to certain heroes.
+
+While ultimates will be effective, this part of the map will likely favor the team that can skirmish better with their standard skills and control the high ground. "></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/oasis2"
+            android:id="@+id/imageView6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:text="Part 2: Gardens"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The second part of the map is Gardens, and it has some interesting health pack placements. The first is a small health pack located very close to the control point. Additionally, each team has a large health pack near this, on their side of the map. The opposite side of the control point is reversed, with a large pack in the middle and smaller ones to either side.
+
+The control point here is also pretty interesting. It has a back ledge which provides some good angles, but it puts you very close to the action. The ledge also extends over the control point itself. Standing here will actually allow you to capture and contest the control point, making this the first control point set over 2 levels.
+
+There is also something here I'm sure Reaper mains will be getting very excited over. Placed high in the wall overlooking the control point is a tunnel perfect for dropping in with a death blossom. The high walls and arches around this point will also make it a lot of fun for Pharah players, as they will have a lot of cover to play with, and the splash damage of the rockets will make them very effective on the small control point."></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/oasis3"
+            android:id="@+id/imageView7" />
+
+        <TextView
+            android:text="Part 3: University"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="The third and final part of the map is University. The back section of this map is similar to the Well on Ilios, with a small central health pack and 1 more small pack on either team's side. Controlling these is helpful, but it's not quite as effective as it is on the Well because of the layout of the rest of this objective. On the opposite side of this is a raised section with 2 viewpoints on the map, much like on Lijiang’s Control Center. It even has a small health pack. Also like Lijiang, this area is useful for medium range heroes to fire down onto the point and dive into cover when needed.
+
+The control point itself is on the low ground, with all approaches coming from an elevated position. There is also a hole in the middle, but unlike the Well, this hole could actually be beneficial to fall into as it hides a large health pack. D.Va players will likely love this, as they are able to dip in and grab the pack before flying back out. However, heroes without this option will have a short walk to get back into the battle.
+
+If you’re trying to attack this point, you’re going to want to take control of either the health pack rooms or the raised ledge. If you rush the point directly, you're likely going to get mowed down in the crossfire.
+
+This part of the map is well designed for assassin and close-ranged heroes, as there are lots of paths around the map. Unless you’re the one doing the sneaking, be sure to keep an eye out for Reaper or Sombra turning up behind you."
+></TextView>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/maptips"
+            android:text="Oasis Tips and Tricks"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_volskayaindustries"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.Volskaya Industries"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Volskaya Industries"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/industriesnew"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Attack Heroes for Volskaya Industries"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Mercy - Mercy's ability to fly around the back allows her to have more flexibility in terms of team strategy compared to Lucio on this map."></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Widowmaker - As usual, Widowmaker is not that good on offense for the most part, but her ability to traverse the backdoor allows her more flexibility on offense as long as you are good with her."></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="McCree - McCree is largely outclassed by Soldier:76 in the first part of the map, but the second objective does allow him to get in some slick ultimates as a result of the moving platforms.
+        "></TextView>
+
+
+        <TextView
+            android:text="Defense Heroes for Volskaya Industries"
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Bastion - On this map Bastion is slightly weaker than Torb simply because of the multi-directional threat. Where Torb's turrets will quickly announce heroes flanking from the back, Bastion just presents his extra critical hit spot."></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Roadhog - Roadhog is very good on this map early on for his hook, but falls off a bit during Objective B."></TextView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/maptips"
+            android:text="Volskaya Industries Tips and Tricks"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.Hanamuralore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Hanamura"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/hanamuralayout"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Attack Heroes for Hanamura"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reinhardt/Winston - As a result of the well guarded gate on this map, a combination of both Winston and Reinhardt are often necessary to make it past the enemy's fortified defenses.
+"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Genji - Genji's ability to climb the wall and reflect turret shots makes him ideal on this map as an offensive based hero. His quick dashing abilities can also make quick work of the back line.
+" ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Widowmaker - On the first part of the map Widowmaker has extremely limited usefulness unless she can quickscope targets while behind a Reinhardt shield. The large number of corners make it otherwise difficult to get good tracking. One the second part of the map she can be used to take out turrets from long-range if necessary.
+"
+            />
+
+        <TextView
+            android:text="Defense Heroes for Hanamura"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Mei - Mei may not be the most impactful defensive hero on this map, but is probably the most popular just for her sheer annoyance. At higher divisions Mei is likely a bit better simply because her utility is unavoidable compared to Torbjorn or Bastion.
+"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Symmetra - As mentioned above Symmetra is extremely good on the first half the map, especially since it is very difficult to get inside and take out her teleporter. Her capabilities on the second half of the map likely move her down the tier list a bit.
+"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/maptips"
+            android:text="Hanamura Tips and Tricks"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>

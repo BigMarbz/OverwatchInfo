@@ -4,6 +4,9 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -15,9 +18,7 @@ public class aboutapp extends AppCompatActivity implements View.OnClickListener 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aboutapp);
         github = (ImageButton) findViewById(R.id.github);
-        marbz = (ImageButton) findViewById(R.id.marbz);
         github.setOnClickListener(this);
-        marbz.setOnClickListener(this);
     }
 
     @Override
@@ -28,9 +29,6 @@ public class aboutapp extends AppCompatActivity implements View.OnClickListener 
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
                 break;
-            case R.id.marbz:
-                break;
-
         }
     }
 }

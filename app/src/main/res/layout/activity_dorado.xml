@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_dorado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.dorado"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Dorado"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/doradolayout2"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Attack Heroes for Dorado"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Pharah - Pharah is amazing on this map, and can really pull her weight out of the starting gate. She has the ability to quickly knock snipers off of their posts, and also presents a high flying cannon for taking out turrets from long range."></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reinhardt - Even if you are not planning on setting up a turret on the payload behind Reinhardt, he is still exceedingly strong and can easily cover your team while moving the payload. He also prevents your team from getting cheesed by snipers out of the starting gate.
+"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content"
+    android:text="Bastion - Depending on your team composition, Bastion can be an extremely powerful game changer. Most of the defensive picks are fairly situational and depend on good composition. However, if your team has good flank coverage, a Bastion can be absolutely devastating on offense simply because of the free moving payload.
+"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="Zenyatta - Zenyatta is not exactly 'weak' on the map, but does somewhat depend on your team composition to work effectively. As long as he can stay out of range of sniper headshots, he is an excellent buffer/debuffer." ></TextView>
+
+
+        <TextView
+            android:text="Defense Heroes for Dorado"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Mei - On payload maps, Mei is extremely annoying via her ice walls and massively slowing Blizzard (ultimate). When enemies are forced to congregate around a single part surrounded by large numbers of corridors like on this map, she really shines.
+"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Widowmaker - This map features plenty of hiding places for Widowmaker to peek through windows for sniping on. While she was recently nerfed, she is still very good in the right hands."></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Hanzo - This map is one where Hanzo closely matches Widowmaker as a sniper replacement and may be superior in some instances. Many maps favor Widowmaker's Grappling Hook for mobility, but Dorado features a ton of climbable walls that allow Hanzo to be much more flexible. Additionally, his ultimate is extremely strong in the narrow corridors, and can take Reinhardt and Bastion quickly off the payload and back into the spawn room."></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Symmetra - This map is not very good for Symmetra most of the time, but her teleporter could potentially be game-changing if your team can hold off a chokepoint."></TextView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/maptips"
+            android:text="Dorado Tips and Tricks"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>

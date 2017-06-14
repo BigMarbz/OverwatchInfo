@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_Ilioslore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.Ilioslore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Ilios"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/ilioslayout"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Attack Heroes for Ilios"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Tracer - On this map, Tracer works exceedingly well since her fast paced hit-and-run is excellent for keeping off the enemy crosshairs in this melee. Additionally, her ultimate is excellent for quickly getting in, clearing the objective area, and getting out."></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reaper - Similar to Tracer, Reaper is excellent on this map for his close range melee abilities, and his ultimate is great for massive multi-kills inside the objective room."></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Winston - Winston's increase mobility and ability to knock people off the ledges with his ultimate makes him slightly better than Reinhardt on this map."></TextView>
+
+
+        <TextView
+            android:text="Defense Heroes for Ilios"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Roadhog - This map is extremely good for Roadhog, as a pull from the edge of the well almost always guarantees an instant fall death for heroes without jumps available. He also has plenty of spots to hide behind, and excels in taking down offensive heroes rounding corners."></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Mercy - Small maps with (usually) cramped fights in closed spaces makes it easy for Mercy to revive numerous teammates at once, as long as the Mercy does not get involved in the fight and die early as well."></TextView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/maptips"
+            android:text="Ilios Tips and Tricks"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>

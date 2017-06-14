@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="bigmarbz.overwatch">
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
     <application
         android:allowBackup="true"
-        android:icon="@drawable/launcherlogo"
+        android:icon="@drawable/owcustomicon"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -44,7 +45,50 @@
         <activity android:name=".tracerlore" />
         <activity android:name=".zenyattalore" />
         <activity android:name=".zaryalore" />
-        <activity android:name=".widowmakerlore"></activity>
+        <activity android:name=".widowmakerlore" />
+        <activity android:name=".ana" />
+        <activity android:name=".bastion" />
+        <activity android:name=".genji" />
+        <activity android:name=".mccree" />
+        <activity android:name=".dva" />
+        <activity android:name=".pharah" />
+        <activity android:name=".reaper" />
+        <activity android:name=".soldier" />
+        <activity android:name=".sombra" />
+        <activity android:name=".tracer" />
+        <activity android:name=".hanzo" />
+        <activity android:name=".junkrat" />
+        <activity android:name=".widowmaker" />
+        <activity android:name=".mei" />
+        <activity android:name=".torbjorn" />
+        <activity android:name=".reinhardt" />
+        <activity android:name=".roadhog" />
+        <activity android:name=".zarya" />
+        <activity android:name=".winston" />
+        <activity android:name=".lucio" />
+        <activity android:name=".mercy" />
+        <activity android:name=".symmetra" />
+        <activity android:name=".zenyatta" />
+        <activity android:name=".youtube" />
+        <activity android:name=".search" />
+        <activity android:name=".professionals" />
+        <activity android:name=".streamers" />
+        <activity android:name=".guides" />
+        <activity android:name=".montages" />
+        <activity android:name=".dorado" />
+        <activity android:name=".eichenwalde" />
+        <activity android:name=".hanamura" />
+        <activity android:name=".hollywood" />
+        <activity android:name=".ilios" />
+        <activity android:name=".lijiangtower" />
+        <activity android:name=".kingsrow" />
+        <activity android:name=".nepal" />
+        <activity android:name=".numbani" />
+        <activity android:name=".templeofanubis" />
+        <activity android:name=".route66" />
+        <activity android:name=".volskayaindustries" />
+        <activity android:name=".watchpointgibraltar" />
+        <activity android:name=".oasis"></activity>
     </application>
 
 </manifest>

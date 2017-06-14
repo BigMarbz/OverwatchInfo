@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_lijiangtower"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.Lijiang Towerlore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Lijiang Tower"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/lijiangtowerlayout"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Attack Heroes for Lijiang Tower"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Junkrat - Junkrat is one of the defense heroes that work extremely well on this map. As a result of the climbable walls and low windows the objective point has, his rip-tire scores some easy kills."></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="McCree [Tier 1] - McCree does well on this map since it has room for him to keep his range, while also giving him the ability to hide behind corners on the objective to flashbang enemies for quick kills."></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Lucio - Make sure to use Lucio's boosted speed boost at the start of the game so your team can setup sooner than the enemy team, especially if they do not have a Lucio themselves. In addition, characters with knockback abilities like Lucio are extremely good for getting free cheese kills on the first two levels."></TextView>
+
+        <TextView
+            android:text="Defense Heroes for Lijiang Tower"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Mei - On payload maps, Mei is extremely annoying via her ice walls and massively slowing Blizzard (ultimate). When enemies are forced to congregate around a single part surrounded by large numbers of corridors like on this map, she really shines.
+"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Pharah - Pharah's ability to control the point through aerial dominance is immense on this map. Additionally, her ability to knock enemies off the map give her some excellent cheesing ability. Lastly, her flight prevents her from getting cheesed by someone like Winston, who is extremely popular on this map."></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Zarya [God Tier] - This map's control point is extremely small, which allows Zarya's ultimate to be extremely effective when it comes to grouping the enemy team with her ultimate"></TextView>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/maptips"
+            android:text="Lijiang Tower Tips and Tricks"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>

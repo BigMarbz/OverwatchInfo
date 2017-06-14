@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_aboutapp"
     android:layout_width="match_parent"
@@ -20,7 +21,7 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:text="This Overwatch Info application was created by android developer BigMarbz. Click on the buttons below to check out other applications BigMarbz has developed or click on the GitHub button to view the source-code for the application."
+        android:text="This Overwatch Info application was created by android developer BigMarbz. Click on the GitHub button to view the source-code for Overwatch Guide."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
@@ -34,16 +35,18 @@
         android:scaleType="fitXY"
         app:srcCompat="@drawable/github"
         android:id="@+id/github"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="101dp" />
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
 
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:srcCompat="@android:drawable/sym_def_app_icon"
-        android:id="@+id/marbz"
-        android:layout_above="@+id/github"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="23dp" />
+    <TextView
+        android:text="I do not own the license to any of the copyrighted content produced by Blizzard Inc."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
 </RelativeLayout>

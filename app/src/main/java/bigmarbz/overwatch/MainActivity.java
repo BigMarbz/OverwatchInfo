@@ -1,6 +1,7 @@
-package bigmarbz.overwatch;
+package bigmarbz.guardianangel;
 
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), productList.get(position).getTitle(), Toast.LENGTH_SHORT).show();
             switch (productList.get(position).getTitle()) {
                 case "Heroes":
-                    Intent intent1 = new Intent(MainActivity.this, heroes.class);
+                    Intent intent1 = new Intent(MainActivity.this, heroes.class); //Done
                     MainActivity.this.startActivity(intent1);
                     break;
                 case "Intro":
@@ -49,17 +50,26 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent4 = new Intent(MainActivity.this, lore.class); //Done
                     MainActivity.this.startActivity(intent4);
                     break;
-                case "About":
-                    Intent intent5 = new Intent(MainActivity.this, aboutapp.class); //Missing developer link
-                    MainActivity.this.startActivity(intent5);
+                case "Github":
+                    Uri uri2 = Uri.parse("https://github.com/BigMarbz/OverwatchInfo");
+                    Intent intent23 = new Intent(Intent.ACTION_VIEW, uri2);
+                    startActivity(intent23);
                     break;
                 case "Maps":
                     Intent intent6 = new Intent(MainActivity.this, maps.class);
                     MainActivity.this.startActivity(intent6);
                     break;
                 case "Tiers":
-                    Intent intent7 = new Intent(MainActivity.this, tiers.class);
+                    Intent intent7 = new Intent(MainActivity.this, tiers.class);  //Done
                     MainActivity.this.startActivity(intent7);
+                    break;
+                case "Youtube":
+                    Intent youtube = new Intent(MainActivity.this, youtube.class);
+                    MainActivity.this.startActivity(youtube);
+                    break;
+                case "Search":
+                    Intent search = new Intent(MainActivity.this,search.class); //Done
+                    MainActivity.this.startActivity(search);
                     break;
             }
         }
@@ -126,14 +136,14 @@ public class MainActivity extends AppCompatActivity {
         //pseudo code to get product, replace your code to get real product here
         productList = new ArrayList<>();
         productList.add(new Product(R.drawable.launcherlogo, "Intro", "Description")); //done
-        productList.add(new Product(R.drawable.tracer, "Heroes", "Detailed Info"));
-        productList.add(new Product(R.drawable.scripticon, "Lore", "Hero Story"));
+        productList.add(new Product(R.drawable.tracer, "Heroes", "Details")); //done
+        productList.add(new Product(R.drawable.scripticon, "Lore", "Hero Story")); //done
         productList.add(new Product(R.drawable.map, "Maps", "Map Layout"));
-        productList.add(new Product(R.drawable.tiericon, "Tiers", "Hero Rank"));
+        productList.add(new Product(R.drawable.tiericon, "Tiers", "Hero Rank")); //done
         productList.add(new Product(R.drawable.youtubeicon, "Youtube", "Channels"));
         productList.add(new Product(R.drawable.searchicon2, "Search", "Player Info"));
         productList.add(new Product(R.drawable.grandmaster, "Rank", "Elo Info"));  //done
-        productList.add(new Product(R.drawable.abouticon2, "About", "App Info")); //done
+        productList.add(new Product(R.drawable.githubicon, "Github", "Source Code")); //done
 
         return productList;
     }

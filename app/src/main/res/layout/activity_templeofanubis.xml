@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_templeofanubis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.Temple of Anubis"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Temple of Anubis"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/templelayout"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Attack Heroes for Temple of Anubis"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Mercy - On the attacking side for this map, Mercy is a bit better than Lucio. Because enemies set up on defense need to be taken down quickly, her damage amplification is key for taking down enemy turrets with Pharah or Soldier."></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Widowmaker - Although Widowmaker on offense is generally not the best option, this map allows for early Widowmaker to impact as a result of the zeppelin on the left of the spawn point which she can rappel to for a good vantage point. Her ultimate is also good for figuring out which side the team should approach on. However, if your team only has one tank then it's probably better to switch to a secondary tank instead."></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Zenyatta - Zenyatta is not exactly 'weak' on the map, but does somewhat depend on your team composition to work effectively. As long as he can stay out of range of sniper headshots, he is an excellent buffer/debuffer." ></TextView>
+
+
+        <TextView
+            android:text="Defense Heroes for Temple of Anubis"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Junkrat - This map is excellent for Junkrat. As a result of the small bridge that sits in front of the choke point, he can rain down his grenades at a variety of angles. Additionally, his ultimate is very difficult to see as a result of the high number of angles."></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Roadhog - On defense, there are so many good spots for damage dealers to hide that your team does not need more than one tank (although it's not a bad idea). However, if Reinhardt is not your cup of tea, Roadhog does well too. Because of the hard choke point at the beginning, he can easily pull enemies with his hook and smash them down."></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Mei - Mei is good for setting up blockades on the right against turrets while your team quickly scampers through the map on the left side, similar to a third tank. However, she is fairly weak offensively and generally is not used on offense."></TextView>
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/maptips"
+            android:text="Temple of Anubis Tips and Tricks"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>

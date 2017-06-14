@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "190066213534",
+    "firebase_url": "https://overwatch-guide-19dfc.firebaseio.com",
+    "project_id": "overwatch-guide-19dfc",
+    "storage_bucket": "overwatch-guide-19dfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190066213534:android:1c00e23cb9192d9c",
+        "android_client_info": {
+          "package_name": "bigmarbz.overwatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190066213534-gpp95lth6h476pvh9m8bnuhbkq8a0hpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiUy9SXbEVwlbokwSJ8pRgE0z6RrB4DMs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

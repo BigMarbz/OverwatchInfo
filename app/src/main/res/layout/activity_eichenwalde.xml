@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="bigmarbz.overwatch.Eichenwaldelore"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Eichenwalde"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+        =
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/eichenwaldelayout"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Attack Heroes for Eichenwalde"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Genji - The close quarters towards the end of the map and the prescense of walls everywhere on this map makes it really easy for Genji to maneuver around and utilize his ultimate to its maximum potential."></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Reinhardt - Even if you are not planning on setting up a turret on the payload behind Reinhardt, he is still exceedingly strong and can easily cover your team while moving the payload. He also prevents your team from getting cheesed by snipers out of the starting gate.
+"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Lucio - Due to the sheer amount of corridors, walls, and castle-like buildings there are in this map, Lucio will have plenty chances to wall-ride." ></TextView>
+
+
+        <TextView
+            android:text="Defense Heroes for Eichenwalde"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Mei -Eichenwalde has cramped close quarter final points which may explain Mei’s dominance on this map, which seems to imply that King’s Row and Dorado would also see success with Mei defenses. Mei can also be extremely annoying via her ice walls and massively slowing Blizzard (ultimate). When enemies are forced to congregate around a single part surrounded by large numbers of corridors like on this map, she really shines.
+"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Bastion - This map is one of the best maps for Bastion due to the amount of walls, corridors, blind corners, as well as high-ground for Bastion to set up camp and potentially gun down any unsuspecting enemies.
+"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Torbjorn - This map has a bias towards builder heroes such as Torbjorn because the high-ground for turrets and the narrow/short corridors towards the end of the map makes it hard for enemies to outrange (and subsequently destroy) Torbjron's turrets.
+"></TextView>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/maptips"
+            android:text="Eichenwalde Tips and Tricks"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>

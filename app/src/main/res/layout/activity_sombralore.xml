@@ -75,7 +75,7 @@ And she had the skills necessary to obtain every last piece of knowledge she nee
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="196dp"
-            app:srcCompat="@drawable/sombralore1"
+            app:srcCompat="@drawable/smallsombra"
             android:id="@+id/imageView3"
             android:layout_weight="0.31" />
 
